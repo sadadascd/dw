@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+      <meta name="description" content="Arcade do Bairro — 11 jogos clássicos no navegador, offline e instalável." />
+        <meta name="theme-color" content="#0d0d1a" />
+          <title>Arcade do Bairro — 11 Jogos</title>
+            <link rel="manifest" href="manifest.json" />
+              <link rel="stylesheet" href="css/style.css" />
+              </head>
+              <body>
+                <a href="#menu" class="skip-link">Pular para o menu</a>
+
+                  <header class="topbar">
+                      <div class="brand">
+                            <span class="logo" aria-hidden="true">🕹️</span>
+                                  <div>
+                                          <h1>Arcade do Bairro</h1>
+                                                  <p>11 clássicos • offline • instalável</p>
+                                                        </div>
+                                                            </div>
+                                                                <button id="installBtn" class="btn-install hidden" aria-label="Instalar aplicativo">⬇ Instalar</button>
+                                                                  </header>
+
+                                                                    <main>
+                                                                        <section id="menu" class="menu" aria-label="Lista de jogos"></section>
+
+                                                                            <section id="gameArea" class="game-area hidden" aria-live="polite">
+                                                                                  <div class="game-header">
+                                                                                          <button id="backBtn" class="btn-ghost">← Menu</button>
+                                                                                                  <h2 id="gameTitle"></h2>
+                                                                                                          <div class="hud">
+                                                                                                                    <span id="scoreBoard" class="hud-score">—</span>
+                                                                                                                              <span id="bestBoard" class="hud-best" title="Recorde">🏆 —</span>
+                                                                                                                                      </div>
+                                                                                                                                            </div>
+                                                                                                                                                  <div id="gameContainer" class="game-container"></div>
+                                                                                                                                                        <div class="game-footer">
+                                                                                                                                                                <button id="pauseBtn" class="btn-ghost hidden">⏸ Pausar</button>
+                                                                                                                                                                        <button id="restartBtn" class="btn-ghost hidden">↻ Reiniciar</button>
+                                                                                                                                                                                <button id="soundBtn" class="btn-ghost" aria-pressed="true">🔊 Som</button>
+                                                                                                                                                                                      </div>
+                                                                                                                                                                                          </section>
+                                                                                                                                                                                            </main>
+
+                                                                                                                                                                                              <footer>
+                                                                                                                                                                                                  <p>HTML • CSS • JS puro — hospedado no GitHub Pages</p>
+                                                                                                                                                                                                    </footer>
+
+                                                                                                                                                                                                      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+                                                                                                                                                                                                        <script type="module" src="js/app.js"></script>
+                                                                                                                                                                                                        </body>
+                                                                                                                                                                                                        </html>
