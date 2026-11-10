@@ -103,4 +103,4 @@ export default function Flappy({ container, ui, id }) {
     destroy() { vivo = false; clearInterval(timer); canvas.removeEventListener('click', pular); document.removeEventListener('keydown', onKey); },
     restart() { reset(); },
   };
-}a
+}
