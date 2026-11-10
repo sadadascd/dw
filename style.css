@@ -247,4 +247,3 @@ button.action:hover { transform: translateY(-2px); }
   .game-header { justify-content: center; text-align: center; }
 }
 footer { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: .82rem; border-top: 1px solid var(--border); margin-top: auto; }
-footer { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: .82rem; border-top: 1px solid var(--border); margin-top: auto; }
